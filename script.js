@@ -17,3 +17,4 @@ const after3 = after2 * 2;
 
 console.log(after1)
 console.log(after2)
+console.log(after3)
