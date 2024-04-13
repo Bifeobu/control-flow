@@ -53,3 +53,7 @@ for (i = 1 ; i < 10 ; i++) {
     p = 2 *(p);
     console.log(p)
 }
+
+console.log(radius * 51200)
+
+// ~Part 3: Errors in Judgement
