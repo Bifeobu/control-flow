@@ -49,6 +49,7 @@ if (after3 > (.8 * area)) {
 
 // ~Part 2: Thinking Bigger~
 let p = 100;
-for (p = 1 ; p < 10 ; p++)
-
-
+for (i = 1 ; i < 10 ; i++) {
+    p = 2 *(p);
+    console.log(p)
+}
