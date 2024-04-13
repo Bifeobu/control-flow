@@ -57,3 +57,12 @@ for (i = 1 ; i < 10 ; i++) {
 console.log(radius * 51200)
 
 // ~Part 3: Errors in Judgement
+try {
+    if (radius < 0) {
+        console.log("Negative!");
+    } else {
+        throw "Error: Plant Space Exceeded";
+    }
+} catch (error) {
+    console.log(error);
+}
