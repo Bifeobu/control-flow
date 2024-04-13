@@ -20,11 +20,20 @@ console.log(after1)
 console.log(after2)
 console.log(after3)
 
-// Pruned
+// Week 1
 if (after1 > (.8 * area)) {
     console.log("Pruned")
 } else if (after1 >= (.5 * area)) {
     console.log("Monitored")
 } else if (after1 < (.5 * area)) {
+    console.log("Planted")
+}
+
+// Week 2
+if (after2 > (.8 * area)) {
+    console.log("Pruned")
+} else if (after2 >= (.5 * area)) {
+    console.log("Monitored")
+} else if (after2 < (.5 * area)) {
     console.log("Planted")
 }
