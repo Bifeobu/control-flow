@@ -1,4 +1,4 @@
-// Part 1: Growing Plants
+// ~Part 1: Growing Plants~
 const PI = 3.1415;
 const radius = 5;
 const area = (PI * radius * radius)
@@ -46,3 +46,9 @@ if (after3 > (.8 * area)) {
 } else if (after3 < (.5 * area)) {
     console.log("Planted")
 }
+
+// ~Part 2: Thinking Bigger~
+let p = 100;
+for (p = 1 ; p < 10 ; p++)
+
+
