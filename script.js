@@ -37,3 +37,12 @@ if (after2 > (.8 * area)) {
 } else if (after2 < (.5 * area)) {
     console.log("Planted")
 }
+
+// Week 3
+if (after3 > (.8 * area)) {
+    console.log("Pruned")
+} else if (after3 >= (.5 * area)) {
+    console.log("Monitored")
+} else if (after3 < (.5 * area)) {
+    console.log("Planted")
+}
