@@ -5,16 +5,22 @@ const area = (PI * radius * radius)
 
 console.log(area)
 
-const mimSpace = 0.8
+const minSpace = 0.8
 
-console.log(area / mimSpace)
+console.log(area / minSpace)
 
 const plants = 20;
 
 const after1 = plants * 2;
 const after2 = after1 * 2;
 const after3 = after2 * 2;
+// "after#" meaning after each week
 
 console.log(after1)
 console.log(after2)
 console.log(after3)
+
+// Pruned
+if (after1 > 80) {
+
+}
